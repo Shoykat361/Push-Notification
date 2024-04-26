@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        tools:context=".SignUpFragment">
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/background_field"
+            android:hint="Enter Your Name"
+            android:paddingStart="12dp"
+            android:layout_margin="5dp"
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/background_field"
+            android:paddingStart="12dp"
+            android:layout_margin="5dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/background_field"
+            android:paddingStart="12dp"
+            android:layout_margin="5dp"
+            android:hint="Password"
+            android:inputType="textPassword" />
+        <EditText
+            android:id="@+id/etcomfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/background_field"
+            android:paddingStart="12dp"
+            android:layout_margin="5dp"
+            android:hint="Comfirm Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_field"
+            android:paddingStart="12dp"
+            android:layout_margin="5dp"
+            android:textColor="#FB4570"
+            android:text="register" />
+
+
+
+    </LinearLayout>
+</layout>

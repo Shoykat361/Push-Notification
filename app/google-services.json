@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "551713495202",
+    "project_id": "pushnotification-eea45",
+    "storage_bucket": "pushnotification-eea45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551713495202:android:ff1724a97175999438dffb",
+        "android_client_info": {
+          "package_name": "com.shoykatsaha.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcA8m2ji8uGoZobbqQ2hfRO_ETPOkndx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

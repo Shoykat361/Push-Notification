@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.shoykatsaha.myapplication.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_homeAdminFragment"
+            app:destination="@id/homeAdminFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_homeUserFragment"
+            app:destination="@id/homeUserFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.shoykatsaha.myapplication.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragment_to_loginFragment512"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeAdminFragment"
+        android:name="com.shoykatsaha.myapplication.HomeAdminFragment"
+        android:label="fragment_home_admin"
+        tools:layout="@layout/fragment_home_admin" />
+    <fragment
+        android:id="@+id/homeUserFragment"
+        android:name="com.shoykatsaha.myapplication.HomeUserFragment"
+        android:label="fragment_home_user"
+        tools:layout="@layout/fragment_home_user" />
+
+
+</navigation>

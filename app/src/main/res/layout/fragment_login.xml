@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@color/white"
+        tools:context=".LoginFragment">
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textAlignment="viewStart"
+            android:layout_margin="5dp"
+            android:hint="Email"
+            android:paddingStart="12dp"
+            android:background="@drawable/background_field"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:hint="Password"
+            android:paddingStart="12dp"
+            android:background="@drawable/background_field"
+            android:textAlignment="viewStart"
+            android:inputType="textPassword" />
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btnLogin"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FB8DA0"
+            android:background="@drawable/background_field"
+            android:text="Login" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+           android:gravity="end"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="0"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#FB6B90"
+                android:text="New to our community ?"/>
+            <Button
+                android:layout_weight="0"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:textColor="#FB8DA0"
+                android:id="@+id/btnSignup"
+                android:background="@drawable/background_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</layout>
