@@ -33,7 +33,7 @@ class LoginFragment : Fragment() {
             if (email.isNotEmpty() && password.isNotEmpty()) {
                 authViewModel.loginUser(email, password,
                     onSuccess = { user ->
-                        if (user.uid == "Gv3PNNnU9NbKExS8JATYXYbncUm1") {
+                        if (user.uid == "IPbsODrKNFaciVPAwencrl1RBEm2") {
                             // Navigate to Admin screen
                             findNavController().navigate(R.id.action_loginFragment_to_homeAdminFragment)
                             Toast.makeText(requireContext(), "Login Success As A Admin", Toast.LENGTH_SHORT).show()
